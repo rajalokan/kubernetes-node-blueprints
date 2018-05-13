@@ -22,7 +22,7 @@ node_templates:
               # installed by cloud-init
               [dockerrepo]
               name=Docker Repository
-              baseurl=https://yum.dockerproject.org/repo/main/$OS/$OS_VERSION
+              baseurl=https://yum.dockerproject.org/repo/main/centos/7
               enabled=1
               gpgcheck=1
               gpgkey=https://yum.dockerproject.org/gpg
