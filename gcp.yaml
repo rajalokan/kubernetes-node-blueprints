@@ -184,6 +184,7 @@ node_templates:
           - 6443
           - 6783
           - 6784
+          - 8285
     relationships:
       - type: cloudify.relationships.connected_to
         target: network
