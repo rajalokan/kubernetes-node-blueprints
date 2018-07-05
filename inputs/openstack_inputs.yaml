@@ -1,0 +1,35 @@
+inputs:
+  keystone_username:
+    description: OpenStack identity service username
+    type: string
+    default: { get_secret: keystone_username }
+
+  keystone_password:
+    description: OpenStack identity service password
+    type: string
+    default: { get_secret: keystone_password }
+
+  keystone_url:
+    description: Keystone authentication URL
+    type: string
+    default: { get_secret: keystone_url }
+
+  keystone_user_domain_name:
+    description: OpenStack user domain name
+    type: string
+    default: { get_secret: keystone_user_domain_name }
+
+  keystone_project_name:
+    description: OpenStack project name
+    type: string
+    default: { get_secret: keystone_project_name }
+
+  keystone_project_domain_name:
+    description: OpenStack project doain name
+    type: string
+    default: { get_secret: keystone_project_domain_name }
+
+  region:
+    description: OpenStack region
+    type: string
+    default: { get_secret: region }

@@ -62,4 +62,3 @@ node_templates:
           - [ iptables, -tnat, --flush ]
           - [ mkdir, '-p', /tmp/data ]
           - [ chcon, '-Rt', svirt_sandbox_file_t, /tmp/data ]
-

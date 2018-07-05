@@ -1,0 +1,17 @@
+inputs:
+
+  public_network_name:
+    type: string
+    default: { get_secret: public_network_name }
+
+  public_subnet_name:
+    type: string
+    default: { get_secret: public_subnet_name }
+
+  router_name:
+    type: string
+    default: { get_secret: router_name }
+
+  kubernetes_security_group_name:
+    type: string
+    default: { get_secret: kubernetes_security_group_name }
