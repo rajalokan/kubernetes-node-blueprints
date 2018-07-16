@@ -20,9 +20,6 @@ inputs:
     type: string
     default: centos
 
-  public_master_ip:
-    type: string
-
 dsl_definitions:
 
   _: &agent_installer
